@@ -16,39 +16,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="Ju9-Ex-BUD">
-                                <rect key="frame" x="57" y="102" width="276" height="283"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ju9-Ex-BUD">
+                                <rect key="frame" x="17" y="67" width="357" height="351"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
-                            <view contentMode="scaleToFill" id="5Sh-tT-z2e">
-                                <rect key="frame" x="57" y="433" width="276" height="283"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="tintColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bH6-Sj-RTQ">
+                                <rect key="frame" x="17" y="440" width="357" height="350"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5Sh-tT-z2e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="07y-gv-w2J"/>
-                            <constraint firstItem="Ju9-Ex-BUD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RIW-BG-3Cq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ju9-Ex-BUD" secondAttribute="trailing" constant="16" id="BWW-1U-mis"/>
+                            <constraint firstItem="bH6-Sj-RTQ" firstAttribute="top" secondItem="Ju9-Ex-BUD" secondAttribute="bottom" constant="22" id="Chw-MA-aLg"/>
+                            <constraint firstItem="bH6-Sj-RTQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="LMt-43-gv0"/>
+                            <constraint firstItem="Ju9-Ex-BUD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="Ri6-YM-Xoa"/>
+                            <constraint firstItem="Ju9-Ex-BUD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cIA-O9-0oo"/>
+                            <constraint firstItem="bH6-Sj-RTQ" firstAttribute="height" secondItem="Ju9-Ex-BUD" secondAttribute="height" id="m4c-rm-lnX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bH6-Sj-RTQ" secondAttribute="bottom" constant="20" id="rTP-y9-ZxK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bH6-Sj-RTQ" secondAttribute="trailing" constant="16" id="vHz-fw-k8W"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129.23076923076923" y="-2.1327014218009479"/>
+            <point key="canvasLocation" x="128.98550724637681" y="-2.4456521739130435"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
